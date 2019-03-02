@@ -102,6 +102,13 @@
         <center>
             <h3><i>My Playlist</i></h3>
             <br />
+            <br />
+            <div id="img1">
+                <img src="playlist.gif" width="100" height="100"/>
+            </div>
+            <br />
+            <br />
+            <br />
             <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLn5mfcj6CeyT7qIlgPwpd1LsoftHi2guK" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </center>
     </section>
@@ -114,6 +121,9 @@
             <div id="fb-root"></div>
             <script async defer src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v3.2"></script>
             <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fetir.github.io%2FnewSite%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <p></p>
+            <img src="like.jpg" width="150" height="100" />
+
         </center>
 
     </section>
@@ -122,7 +132,7 @@
         <center>
             <h3><i>Scan My Code</i></h3>  <br />
             <br />
-            <img src="QA.png" width="200" height="200" />
+            <img src="1.png" width="500" height="300" />
             <br />
             <br />
         </center>
@@ -443,17 +453,19 @@
 
 
     <script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash);
-  });
-});
+        $(function () {
+            $("#nav a").click(function (e) {
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash, this.hash);
+            });
+        });
     </script>
     <script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });
+        $(document).scroll(function () {
+            $('#menu').toggle($(this).scrollTop() > 1000)
+        });
     </script>
+
+   
 </body>
 </html>
