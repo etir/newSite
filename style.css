@@ -7,9 +7,9 @@
 }
 body {
     background-color: #e6e6ff;
-    text-align:center;
-    align-items:center;
-   
+    text-align: center;
+    align-items: center;
+    position: relative;
 }
 
 h3 {
@@ -18,14 +18,17 @@ h3 {
     font-style: italic;
     text-align: center;
     text-shadow: 2px 2px 2px;
+
 }
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 #spa {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 #backImg {
@@ -33,17 +36,18 @@ p {
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     padding: 15px;
+  
 }
 #titel {
     text-align: center;
     font-weight: bold;
     font-style: italic;
     font-size: 14pt;
-
+    position: relative;
 }
 #t2 {
     font-style: oblique;
-
+    position: relative;
 }
 .centered {
     position: fixed;
