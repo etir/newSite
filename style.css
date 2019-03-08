@@ -8,6 +8,8 @@
 body {
     background-color: #e6e6ff;
     text-align:center;
+    align-items:center;
+   
 }
 
 h3 {
@@ -41,6 +43,7 @@ p {
 }
 #t2 {
     font-style: oblique;
+
 }
 .centered {
     position: fixed;
