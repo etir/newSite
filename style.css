@@ -3,4 +3,41 @@
     width: 100%;
     height: 35px;
     background: #e6e6ff;
+   
+}
+body {
+    background-color: #e6e6ff;
+    text-align: center;
+}
+
+h3 {
+    color: #600080;
+    font-size: 20pt;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+}
+p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#spa {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#backImg {
+    background-image: url(2.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+#titel{
+    text-align:center;
+    font-weight:bold;
+    font-style:italic;
+    font-size:14pt;
+}
+#t2 {
+    font-style:oblique;
 }
